@@ -1,0 +1,161 @@
+# Assignment 1:
+# Create a function that returns the sum of three given numbers.
+
+def sum_three(a,b,c):
+  return a + b + c
+print(sum_three(5,6,19))
+
+# Assignment 2:
+# Create a function that takes two strings and returns them joined with a space in between.
+
+def strings(num1, num2):
+  return num1 + " " + num2
+print(strings("hello", "dear"))
+
+
+# Assignment 3:
+# Create a function that multiplies four numbers and returns the result.
+
+def multiply_num(a,b,c,d):
+  return a * b * c * d
+print(multiply_num(4,5,8,0))
+
+# Assignment 4:
+# Create a function that takes a name and age as arguments and returns a sentence like: "John is 25 years old".
+def info(name="muiz", age=19):
+  return f"{name} is {age} years old"
+print(info("muiz", 19))
+
+# Assignment 5:
+# Create a function that takes a number and returns the number squared plus 10.
+def square_plus_10(function):
+  return function**2 + 10
+print(square_plus_10(5))
+
+def square_plus_10(num, addd):
+  print(2**2 + 5)
+square_plus_10(2,5)
+
+# Assignment 6:
+# Create a function that takes two decimal numbers and returns their average.
+def division(c,b):
+  return(8.3 + 2.7) / 2
+print(division(8.3,2.7))
+
+# Assignment 7:
+# Create a function that takes your first name, middle name, and last name and returns your full name.
+def fullname(first, middle, last):
+  return f"{first} {middle} {last}"
+print(fullname("muiz", "abiola", "olorode"))
+
+# Assignment 8:
+# Create a function that returns the area of a triangle using base and height as parameters.
+# (Hint: area = 0.5 * base * height)
+def triangle_area(height, base):
+    return(7*8)/2
+print(triangle_area(7,8))
+
+# Assignment 9:
+# Create a function that takes two strings and returns them in reverse order.
+# Example: ("hello", "world") → "world hello"
+def reverse_order(str1, str2):
+  return F"{str2} {str1}"
+print(reverse_order("hello", "world"))
+
+
+# Assignment 10:
+# Create a function that adds VAT to a price. Use two arguments: price and vat rate.
+# (Hint: result = price + (price * vat_rate))
+def vat(price, vat_rate):
+  return price + (price * vat_rate)
+print(vat(100, 0.35))
+
+
+
+# Assignment 1:
+# Create 3 variables: name (string), age (integer), and height (float).
+# Then print them together in a sentence using concatenation or formatted string.
+name = "Muiz"
+age = 19
+height = 5.7
+print(f"My name is {name}, I am {age} years old and my height is {height} feet.")
+
+# Assignment 2:
+# Assign two float values to variables. Multiply them and store the result in a third variable.
+# Print the result with a message like "The area is: "
+width = 3.5
+height = 2.5
+total = width * height
+print(f"The area is: {total}")
+
+# Assignment 3:
+# Declare a variable for your favorite quote (as a string).
+# Print the quote in uppercase and also print the number of characters in it.
+my_fav_quote = "The best way to get started is to quit talking and begin doing."
+print(my_fav_quote.upper())
+print(len(my_fav_quote))
+
+# Assignment 4:
+# Create variables for the price of three items (float).
+# Add them up to get the total cost and print the result with a message.
+banana = 500
+orange = 300
+apple = 200
+fruit = banana + orange + apple
+print(f"The total cost of the fruits is: {fruit}")
+
+# Assignment 5:
+# Create a variable to store the current year.
+# Create another variable to store your year of birth.
+# Subtract the two to calculate and print your age.
+current_year = 2025
+birth_year = 2005
+age = current_year - birth_year
+print(age)
+
+# Assignment 6:
+# Create a string variable with your full name.
+# Extract and print the first name and last name using string slicing.
+full_name = "Muiz Abiola Olorode"
+first_name = full_name[0:4]
+last_name = full_name[12:19]
+print(first_name)
+print(last_name)
+
+# Assignment 7:
+# Assign a decimal number to a variable.
+# Convert it to an integer and print both the original and converted values.
+decimal_num = 9.78
+int = int(decimal_num)
+print(decimal_num)
+print(int)
+
+# Assignment 8:
+# Store a boolean value in a variable to represent if it's raining.
+# Print a sentence like: "Is it raining today? True"
+is_raining = True
+print("Is it raining today? " + str(is_raining))
+print(f"Is it raining today? {is_raining}")
+
+
+
+# Assignment 9:
+# Assign values of different types (int, float, str, bool) to four variables.
+# Print the type of each variable using the type() function.
+num = 10
+decimal = 5.6
+greeting = "hello"
+bool = True
+print(type(num))
+print(type(decimal))
+print(type(greeting))
+print(type(bool))
+
+# Assignment 10:
+# Combine three strings (e.g., "Python", "is", "fun") into a single sentence using string formatting or concatenation.
+# Print the final sentence.
+str1 = "Python"
+str2 = "is"
+str3 = "fun"
+print(f"{str1} {str2} {str3}")
+print(str1 + " " + str2 + " " + str3)
