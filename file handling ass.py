@@ -171,8 +171,7 @@ try:
         users = file.readlines()
         credentials = [line.strip().split(",") for line in users]
         if [username, password] in credentials:
-    
-    
+            print("Login successful!")
         else:
             print("Invalid username or password.")
 except FileNotFoundError:
