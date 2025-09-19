@@ -80,6 +80,8 @@ age = 19
 height = 5.7
 print(f"My name is {name}, I am {age} years old and my height is {height} feet.")
 
+print()
+
 # Assignment 2:
 # Assign two float values to variables. Multiply them and store the result in a third variable.
 # Print the result with a message like "The area is: "
@@ -159,3 +161,132 @@ str2 = "is"
 str3 = "fun"
 print(f"{str1} {str2} {str3}")
 print(str1 + " " + str2 + " " + str3)
+
+
+
+def add(a,b,c):
+  return a + b + c
+print(add(2,3,4))
+
+def twostr(ad, ba):
+   return ad + " " + ba
+print(twostr("ade", "bbisi"))
+
+
+def strings(num1, num2):
+  return num1 + " " + num2
+print(strings("hello", "dear"))
+
+def multiply_num(a,b,c):
+ return a*b*c
+print(multiply_num(0,2,3))
+
+def name(name="wale", age=20):
+  print(f"{name} is {age} years old")
+name()
+
+def squared(number):
+  print(number**2 +2) 
+squared(3) 
+
+wale=(2,2,3,4,5,)
+def ola(*olam):
+ print(olam[2] * olam[4])
+ola(*wale)
+
+def muiz(*adewale):
+ print(adewale[2] * adewale[3])
+muiz(1,2,4,5,6,)
+
+def decimal(a, b):
+  return(a+b)/2
+print(decimal(6,8))
+
+def name(fname="muiz", middle="abiola", last="olorode"):
+ print(f"my name is {fname} {middle} {last}")
+name()
+
+
+def fullname(first, middle, last):
+  return f"{first} {middle} {last}"
+print(fullname("muiz", "abiola", "olorode"))
+
+def fname(name="ade", mid="wale", last="ss"):
+ print( f"{name} {mid} {last}")
+fname()
+
+def tri(base, height):
+  return (3*3)/2
+print(tri(3,3))
+
+def dae(str1, str2):
+  return f"{str2} {str1}"
+print(dae('hello', 'worldV'))
+
+def vat(price, vat):
+ vat_rate=399*1.3
+ price= 399
+ return vat_rate + price
+print(vat(399, 1.3))
+
+name ="ade"
+age =36
+height=3.6
+print(f"{name} is {age} years old and {height}meters tall")
+
+are = 4.5
+my = 2.4
+adf=4.5 + 2.4
+print(f"the area is {adf}")
+
+my_fav_quote ='ajsdcdjdsjvfkvsfvfsbvfskvs'
+print(my_fav_quote.upper())
+print(len(my_fav_quote))
+
+mango = 23
+beans =234
+rice =12
+food = mango + beans + rice
+print(f"the cost of the items is {food}")
+
+year =2025
+birth_year = 1999
+age =birth_year - year
+print(age)
+
+name = 'olorode muiz abiola'
+print(name[:7])
+
+# decimal = 30.4
+# inte =int(decimal)
+# print(inte)
+
+
+
+# decimal_num = 9.78
+# int = int(decimal_num)
+# print(decimal_num)
+# print(int)
+
+# Store a boolean value in a variable to represent if it's raining.
+# Print a sentence like: "Is it raining today? True"
+raining = True
+print(f"is it rainig today? {raining}")
+print("is it raining today?" + str(raining))
+
+int = 900
+float = 12.3
+str = "asdj"
+sde = True
+print(type(int))
+print(type(float))
+print(type(str))
+print(type(sde))
+
+a = "python"
+b = "is"
+c ="fun"
+print(a,b,c)
+
+
+
